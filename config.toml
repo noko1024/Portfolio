@@ -1,3 +1,25 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://noko1024.net"
+publishDir = "public"
+languageCode = 'ja_jp'
+title = "noko1024's Site"
+theme = 'github-style'
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Yuhei Kobayashi"
+  description = "しがない高専生"
+  github = "noko1024"
+  twitter = "ynstg"
+  email = "ynoko1024@gmail.com"
+  url = "https://noko1024.net"
+  keywords = "portfolio,blog"
+  rss = true
+  lastmod = true
+  userStatusEmoji = ""
+  favicon = "https://github.com/noko1024.png"
+  location = "Japan"
+  enableGitalk = false
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]

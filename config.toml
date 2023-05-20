@@ -9,6 +9,8 @@ pygmentsUseClasses = true
 [params]
   author = "Yuhei Kobayashi"
   description = "しがない高専生"
+  avatar = "https://github.com/noko1024.png" 
+  userStatusEmoji = ""
   github = "noko1024"
   twitter = "ynstg"
   email = "ynoko1024@gmail.com"
@@ -16,10 +18,13 @@ pygmentsUseClasses = true
   keywords = "portfolio,blog"
   rss = true
   lastmod = true
-  userStatusEmoji = ""
   favicon = "https://github.com/noko1024.png"
   location = "Japan"
   enableGitalk = false
+
+  [site]
+  copyright="noko1024"
+
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]

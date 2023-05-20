@@ -1,6 +1,11 @@
+# hugo
 /public/
 /resources/_gen
 .hugo_build.lock
 
 ._*
 *~
+
+#npm
+node_modules
+package-lock.json

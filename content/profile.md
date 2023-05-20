@@ -1,7 +1,7 @@
 ---
 title: "Profile"
 date: 2023-05-19T17:32:27+09:00
-draft: true
+draft: false
 ---
 
 ### 基本情報

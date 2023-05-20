@@ -5,7 +5,7 @@ jobs:
   textlint:
     runs-on: Ubuntu-latest
     container:
-      image: node:current-alpine
+      image: node:latest
       env:
         LEVEL: error
         FLAGS: content/

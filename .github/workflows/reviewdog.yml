@@ -18,9 +18,8 @@ jobs:
       - name: installl-textlint
         run: |
           cd "$GITHUB_WORKSPACE"
-          if [ ! -f "$(npm bin)/textlint" ]; then
-            npm install -g
-          fi
+          npm init -y
+          npm install -D textlint textlint-rule-preset-ja-technical-writing
       
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v3

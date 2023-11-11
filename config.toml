@@ -1,4 +1,4 @@
-baseURL = "."
+baseURL = "https://noko1024.net"
 publishDir = "public"
 languageCode = 'ja_jp'
 title = "noko1024's Site"

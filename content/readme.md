@@ -6,5 +6,5 @@ draft: false
 
 ## Hi, I'm noko1024
 
-- [プロフィール](../profile)
-- [SNS](../links)
+- [プロフィール](https://self.noko1024.net)
+- [SNS](https://self.noko1024.net/links/)
